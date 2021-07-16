@@ -5,12 +5,12 @@ _By FarukOzderim_
 Thread-machine is virtual machine running some number of workers, and you can assign generators as threads to this Thread Machine.
 
 
-#Run
+# Run
 ```
 python3 main.py
 ```
 
-#Usage
+# Usage
 ```
 from thread_machine import GreenThreadMachine
 machine = GreenThreadMachine(5)
